@@ -25,7 +25,7 @@ function RecursosyMateriales() {
       {/* Contenido principal */}
       <div className="content">
          <h1 className="titulo_recursos">Recursos y Materiales</h1>
-        <p className="recursos_utiles">Aquí puedes encontrar recursos útiles:</p>
+        <p className="recursos_Utiles">Aquí puedes encontrar recursos útiles:</p>
         <ul className="recursos-list">
           {recursos.map((recurso, index) => (
             <li key={index} className="recurso-item">
